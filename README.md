@@ -1,4 +1,4 @@
-# Simple weather app 
+# Simple weather app using ArcgisMap API + OpenWeatherMap API) 
 ![Screenshot_69](https://user-images.githubusercontent.com/19228713/148054257-c9f508db-37c8-427e-aa27-c4c6b2ad79a2.png)
 
 [Screenshot_64](https://user-images.githubusercontent.com/19228713/148044412-dfbde758-9b17-428d-9bda-35d9072c34c7.png)
