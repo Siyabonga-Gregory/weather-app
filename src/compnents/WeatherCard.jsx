@@ -1,4 +1,3 @@
-import { textAlign } from '@mui/system';
 import React, { createElement } from 'react'
 import ghost from '../../src/assets/ghost.png';
 import '../../src/compnents/weatherCard.css';
@@ -10,23 +9,28 @@ export default function WeatherCard({ weatherData }) {
         var temp = (weatherData.data.main.temp - 273.15).toFixed(2);
         var minTemp = (weatherData.data.main.temp_min - 273.15).toFixed(2);
         var maxTemp = (weatherData.data.main.temp_max - 273.15).toFixed(2);
-
-        var currentDate = new Date().getDate();
-        var year = new Date().getFullYear();
-        var month = new Date().toLocaleString('default', { month: 'long' });
-
+        var currentDate = new Date().toDateString();
         return (
-            <>
-                <div className="card text-white mb-3"
+            <> 
+                <div className="card text-white bg-primary mb-3"
                     style={{
-                        maxWidth: 35 + 'rem', height: 30 + 'rem', borderRadius: 5 + 'px', textAlign: 'left', paddingLeft: 9 + 'px', backgroundColor: '#2C3749', color: '#fff',
+                        maxWidth: 35 + 'rem', height: 38 + 'rem', borderRadius: 5 + 'px', textAlign: 'center', paddingLeft: 9 + 'px', backgroundColor: '#2C3749', color: '#fff',
                         fontFamily: "Times New Roman, Times, serif"
                     }}>
-                    <div className="card-header" style={{ fontSize: 2 + 'rem' }}>{weatherData.data.name}</div>
+                        <hr/>
+                    <div className="card-header" style={{ fontSize: 4 + 'rem',height: 5+'rem' }}>{weatherData.data.name}</div>
+                   
                     <div className="card-body">
-                        <h5 className="card-title">PT</h5>
-                        <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h5 className="card-title" style={{ fontSize: 2 + 'rem',height: 5+'rem' }}>{currentDate}</h5>
+                        <hr/>
+
+                        <div className="card-header" style={{ fontSize: 4 + 'rem' }}>{temp} &#8451;</div>
+                        <hr/>
+
+                        <div className="card-header" style={{ fontSize: 2 + 'rem' }}>Smoke 
+                        <br/><span style={{ fontWeight:500}}> {minTemp} &#8451; | {maxTemp} &#8451;</span></div>
                     </div>
+                    
                 </div>
             </>
         )
@@ -34,7 +38,7 @@ export default function WeatherCard({ weatherData }) {
     else {
         return (<>
             
-            <div style={{ paddingLeft: 5 + 'rem', color: '#fff' }}>
+            <div style={{ paddingLeft: 8 + 'rem', color: '#fff' }}>
                 <h5>Hallo There From Ghost Coder </h5>
             </div>
 
