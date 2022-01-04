@@ -1,5 +1,7 @@
 # Weather app using ArcgisMap API + OpenWeatherMap API)
 
+Please, Remember to provide your own API keys because the app won't work...
+
 If interested in the project, please, implement media queries for responsiveness.👌 
 
 If need help please, don't hesitate to send me a mail 👉 huge.fuze@gmail.com
