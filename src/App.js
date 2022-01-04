@@ -28,11 +28,9 @@ function App() {
   }
 
   const fetchWeatherData = async (AddressData) => {
-    console.log(AddressData);
     const request = axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${AddressData.y}&lon=${AddressData.x}&appid=${OPEN_WEATHER_API_KEY}`)
       .then((response) => {
         setData(response)
-        console.log(response)
       })
       .catch(console.log)
   }
@@ -47,11 +45,11 @@ function App() {
         container: mapDiv.current,
         map: map,
         center: [-29.85, 38],
-        scale: 10000000
+        scale:0
       });
       const searchWidget = new Search({
         view: view,
-        popupEnabled: true,
+        popupEnabled: false,
         allPlaceholder: "Please type address here",
         includeDefaultSources: false,
         sources: [
