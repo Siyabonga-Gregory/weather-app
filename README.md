@@ -1,4 +1,4 @@
-# Using ArcgisMap API + OpenWeatherMap API)
+# Weather app using ArcgisMap API + OpenWeatherMap API)
 
 If interested in the project, please, implement media queries for responsiveness.👌 
 
