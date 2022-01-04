@@ -2,6 +2,9 @@
 
 Please, Remember to provide your own API keys because the app won't work...
 
+Arcgis Map  API          👉 https://lnkd.in/dkVrXSAp
+Open Weather Map  API     👉 https://lnkd.in/dNdENtdQ
+
 If interested in the project, please, implement media queries for responsiveness.👌 
 
 If need help please, don't hesitate to send me a mail 👉 huge.fuze@gmail.com
