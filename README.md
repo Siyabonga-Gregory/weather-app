@@ -1,6 +1,4 @@
-# Using ArcgisMap API + OpenWeatherMap API) 
-![Screenshot_69](https://user-images.githubusercontent.com/19228713/148054257-c9f508db-37c8-427e-aa27-c4c6b2ad79a2.png)
-![Screenshot_70](https://user-images.githubusercontent.com/19228713/148056030-3b4a6ed6-50c6-47f7-a09f-a28381406f45.png)
+# Using ArcgisMap API + OpenWeatherMap API)
 
 If interested in the project, please, implement media queries for responsiveness.👌 
 
@@ -9,6 +7,10 @@ If need help please, don't hesitate to send me a mail 👉 huge.fuze@gmail.com
 Thank you for coming by my repo and please don't forget to give this repo a star if you find it usefull.
 
 ❤️Manny thanks!❤️
+![Screenshot_69](https://user-images.githubusercontent.com/19228713/148054257-c9f508db-37c8-427e-aa27-c4c6b2ad79a2.png)
+![Screenshot_70](https://user-images.githubusercontent.com/19228713/148056030-3b4a6ed6-50c6-47f7-a09f-a28381406f45.png)
+
+
 !
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
