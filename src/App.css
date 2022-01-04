@@ -10,5 +10,9 @@ overflow: visible; /*To show suggested location even if map has a width/heigh of
 .esri-component {
   width: 350px; 
 }
+.weatherCard{
+  padding-top: 4rem;
+  padding-left: 1.4rem;
+}
 
 
