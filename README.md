@@ -6,7 +6,7 @@ Arcgis Map  API          👉 https://developers.arcgis.com/
 
 Open Weather Map  API     👉 https://lnkd.in/dNdENtdQ
 
-If interested in the project, please, implement media queries for responsiveness.👌 
+If interested in the project, please, implement media queries for (desktop and tablet devices).👌 
 
 If need help please, don't hesitate to send me a mail 👉 huge.fuze@gmail.com
 
