@@ -80,7 +80,6 @@ function App() {
     <div className="mapDiv" ref={mapDiv}></div>;
     <div className="weatherCard"><WeatherCard weatherData={data} /></div>
   </>)
-
 }
 
 export default App;

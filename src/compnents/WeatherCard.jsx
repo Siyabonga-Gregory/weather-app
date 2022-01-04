@@ -17,13 +17,13 @@ export default function WeatherCard({ weatherData }) {
     console.log(currentDate + '     ' + year + '    ' + month); */
     return (
         <>
-            <div className="card text-white bg-primary mb-3"  
-            style={{maxWidth: 350+'px' , borderRadius:5+'px' , textAlign:'left' , paddingLeft:9+'px' ,
+            <div className="card text-white mb-3"   
+            style={{maxWidth:35+'rem',height:30+'rem',borderRadius:5+'px',textAlign:'left',paddingLeft:9+'px',backgroundColor:'#2C3749',color:'#fff',
             fontFamily:"Times New Roman, Times, serif"}}>
-                <div className="card-header" style={{ fontSize:24 +'px'}}>H</div>
+                <div className="card-header" style={{ fontSize:2+'rem'}}>H</div>
                 <div className="card-body">
                     <h5 className="card-title">PT</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
             </div>
         </>
